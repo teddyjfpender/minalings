@@ -41,4 +41,43 @@ watcher
     });
   })
   .on('error', error => log(`Watcher error: ${error}`))
-  .on('ready', () => log('Initial scan complete. Ready for changes'));
+  .on('ready', () => log(`
+   █████   ███   █████          ████                                                 █████                                    
+  ░░███   ░███  ░░███          ░░███                                                ░░███                                     
+   ░███   ░███   ░███   ██████  ░███   ██████   ██████  █████████████    ██████     ███████    ██████                         
+   ░███   ░███   ░███  ███░░███ ░███  ███░░███ ███░░███░░███░░███░░███  ███░░███   ░░░███░    ███░░███                        
+   ░░███  █████  ███  ░███████  ░███ ░███ ░░░ ░███ ░███ ░███ ░███ ░███ ░███████      ░███    ░███ ░███                        
+    ░░░█████░█████░   ░███░░░   ░███ ░███  ███░███ ░███ ░███ ░███ ░███ ░███░░░       ░███ ███░███ ░███                        
+      ░░███ ░░███     ░░██████  █████░░██████ ░░██████  █████░███ █████░░██████      ░░█████ ░░██████                         
+       ░░░   ░░░       ░░░░░░  ░░░░░  ░░░░░░   ░░░░░░  ░░░░░ ░░░ ░░░░░  ░░░░░░        ░░░░░   ░░░░░░                          
+                                                                                                                              
+                                                                                                                              
+                                                                                                                              
+    █████    █████                  ██████   ██████  ███                                                                      
+   ░░███    ░░███                  ░░██████ ██████  ░░░                                                                       
+   ███████   ░███████    ██████     ░███░█████░███  ████  ████████    ██████   █████ █████  ██████  ████████   █████   ██████ 
+  ░░░███░    ░███░░███  ███░░███    ░███░░███ ░███ ░░███ ░░███░░███  ░░░░░███ ░░███ ░░███  ███░░███░░███░░███ ███░░   ███░░███
+    ░███     ░███ ░███ ░███████     ░███ ░░░  ░███  ░███  ░███ ░███   ███████  ░███  ░███ ░███████  ░███ ░░░ ░░█████ ░███████ 
+    ░███ ███ ░███ ░███ ░███░░░      ░███      ░███  ░███  ░███ ░███  ███░░███  ░░███ ███  ░███░░░   ░███      ░░░░███░███░░░  
+    ░░█████  ████ █████░░██████     █████     █████ █████ ████ █████░░████████  ░░█████   ░░██████  █████     ██████ ░░██████ 
+     ░░░░░  ░░░░ ░░░░░  ░░░░░░     ░░░░░     ░░░░░ ░░░░░ ░░░░ ░░░░░  ░░░░░░░░    ░░░░░     ░░░░░░  ░░░░░     ░░░░░░   ░░░░░░  
+                                                                                                                              
+     
+     Is this your first time? Don't worry, Minalings was made for beginners! We are
+     going to teach you a lot of things about Mina & o1js, but before we can get
+     started, here's a couple of notes about how Minalings operates:
+     
+     1. The central concept behind Minalings is that you solve exercises. These
+        exercises usually have some sort of syntax error in them, which will cause
+        them to fail compilation or testing. Sometimes there's a logic error instead
+        of a syntax error. No matter what error, it's your job to find it and fix it!
+        You'll know when you fixed it because then, the exercise will compile and
+        Minalings will be able to move on to the next exercise.
+     2. If you run Minalings in watch mode (which we recommend), it'll automatically
+        start with the first exercise. Don't get confused by an error message popping
+        up as soon as you run Minalings! This is part of the exercise that you're
+        supposed to solve, so open the exercise file in an editor and start your
+        detective work!
+     3. If you're stuck on an exercise, there is a helpful hint you can view by saving the file
+        you're working on (in watch mode). To get the hint simply type "yes" in the terminal when prompted.                                                                                   
+                                   `));
